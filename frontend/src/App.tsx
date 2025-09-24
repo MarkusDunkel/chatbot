@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import SimpleChat from './components/SimpleChat'
 
 function App() {

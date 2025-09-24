@@ -6,9 +6,9 @@ export interface ChatResponse {
   message: string;
 }
 
-// const API_BASE_URL = "http://localhost:8080";
+const API_BASE_URL = "http://localhost:8080";
 
-const API_BASE_URL = "https://chatbot-925708659658.europe-west4.run.app";
+// const API_BASE_URL = "https://chatbot-925708659658.europe-west4.run.app";
 
 export async function sendMessage(message: string): Promise<ChatResponse> {
   const res = await fetch(`${API_BASE_URL}/api/chat`, {
